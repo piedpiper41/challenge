@@ -13,7 +13,7 @@ Laravel faker ve seeder kullanarak tabloları Dummy veriler ile doldurdum.
 php artisan migrate --seed
 ```
 
-Sql Export: https://raw.githubusercontent.com/piedpiper41/challenge/main/teknasyon_2021-03-14.sql
+Sql Export: https://raw.githubusercontent.com/uguryildiz81/challenge/main/teknasyon_2021-03-14.sql
 
 ### API
 Api tarafı için 4 adet controller oluşturdum.
@@ -27,7 +27,7 @@ Http istediği 200 veya 201 olmaz ise 1 saat arayla tekrar dener. 3. denemeden s
 
 Purchase endpointleri için CheckToken adında bir middleware oluşturdum.'client-token' zorunludur.
 
-Postman: https://raw.githubusercontent.com/piedpiper41/challenge/main/Teknasyon.postman_collection.json
+Postman: https://raw.githubusercontent.com/uguryildiz81/challenge/main/Teknasyon.postman_collection.json
 
 Endpoints
 - (GET) /api/apps => Application Listesi
