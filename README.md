@@ -21,9 +21,9 @@ Api tarafı için 4 adet controller oluşturdum.
 
 PurchaseController da kullanılmak için StartedEvent,CanceledEvent,RenewedEvent şeklinde 3 event oluşturdum.
 
-Eventları ProcessCallback worker a bağlayarak istek atılma işlemi yaptım. 
+Event lerı ProcessCallback worker a bağlayarak istek atılma işlemi yaptım. 
 
-Http istedi 200 veya 201 olmaz ise 1 saat arayla tekrar dener. 3. denemeden sonra işlemi kapatıyor.
+Http istediği 200 veya 201 olmaz ise 1 saat arayla tekrar dener. 3. denemeden sonra işlemi kapatıyor.
 
 Purchase endpointleri için CheckToken adında bir middleware oluşturdum.'client-token' zorunludur.
 
@@ -75,4 +75,4 @@ Api ve worker için event listener uygulamasıdır.
 
 Abonelik durumu her hangi bir device değişiklik durumunda StartedEvent,CanceledEvent,RenewedEvent eventlarına istek atarak ilgili Uygulamanın enpoint adresine dönüş yapar. 
 
-Http istedi 200 veya 201 olmaz ise 1 saat arayla tekrar dener. 3. denemeden sonra işlemi kapatıyor.
+Http istediği 200 veya 201 olmaz ise 1 saat arayla tekrar dener. 3. denemeden sonra işlemi kapatıyor.
