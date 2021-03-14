@@ -27,7 +27,7 @@ Http istedi 200 veya 201 olmaz ise 1 saat arayla tekrar dener. 3. denemeden sonr
 
 Purchase endpointleri için CheckToken adında bir middleware oluşturdum.'client-token' zorunludur.
 
-Postman: https://raw.githubusercontent.com/piedpiper41/challenge/main/README.md
+Postman: https://raw.githubusercontent.com/piedpiper41/challenge/main/Teknasyon.postman_collection.json
 
 Endpoints
 - (GET) /api/apps => Application Listesi
